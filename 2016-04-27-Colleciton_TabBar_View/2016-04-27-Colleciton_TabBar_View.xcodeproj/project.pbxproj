@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A46FC1171CD13C740091E3A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FC1161CD13C740091E3A2 /* AppDelegate.swift */; };
+		A46FC1191CD13C740091E3A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FC1181CD13C740091E3A2 /* ViewController.swift */; };
+		A46FC11C1CD13C740091E3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46FC11A1CD13C740091E3A2 /* Main.storyboard */; };
+		A46FC11E1CD13C740091E3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46FC11D1CD13C740091E3A2 /* Assets.xcassets */; };
+		A46FC1261CD140B00091E3A2 /* MoviesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FC1251CD140B00091E3A2 /* MoviesItem.swift */; };
+		A46FC1281CD141E40091E3A2 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FC1271CD141E40091E3A2 /* Movies.swift */; };
+		A46FC12A1CD14E440091E3A2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FC1291CD14E440091E3A2 /* DetailViewController.swift */; };
+		A46FC12C1CD152EF0091E3A2 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46FC12B1CD152EF0091E3A2 /* TabBarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A46FC1131CD13C740091E3A2 /* 2016-04-27-Colleciton_TabBar_View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2016-04-27-Colleciton_TabBar_View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A46FC1161CD13C740091E3A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A46FC1181CD13C740091E3A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A46FC11B1CD13C740091E3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A46FC11D1CD13C740091E3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A46FC11F1CD13C740091E3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46FC1251CD140B00091E3A2 /* MoviesItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesItem.swift; sourceTree = "<group>"; };
+		A46FC1271CD141E40091E3A2 /* Movies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		A46FC1291CD14E440091E3A2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A46FC12B1CD152EF0091E3A2 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A46FC1101CD13C740091E3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A46FC10A1CD13C740091E3A2 = {
+			isa = PBXGroup;
+			children = (
+				A46FC1151CD13C740091E3A2 /* 2016-04-27-Colleciton_TabBar_View */,
+				A46FC1141CD13C740091E3A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A46FC1141CD13C740091E3A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A46FC1131CD13C740091E3A2 /* 2016-04-27-Colleciton_TabBar_View.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A46FC1151CD13C740091E3A2 /* 2016-04-27-Colleciton_TabBar_View */ = {
+			isa = PBXGroup;
+			children = (
+				A46FC1271CD141E40091E3A2 /* Movies.swift */,
+				A46FC1161CD13C740091E3A2 /* AppDelegate.swift */,
+				A46FC1181CD13C740091E3A2 /* ViewController.swift */,
+				A46FC1291CD14E440091E3A2 /* DetailViewController.swift */,
+				A46FC12B1CD152EF0091E3A2 /* TabBarViewController.swift */,
+				A46FC1251CD140B00091E3A2 /* MoviesItem.swift */,
+				A46FC11A1CD13C740091E3A2 /* Main.storyboard */,
+				A46FC11D1CD13C740091E3A2 /* Assets.xcassets */,
+				A46FC11F1CD13C740091E3A2 /* Info.plist */,
+			);
+			path = "2016-04-27-Colleciton_TabBar_View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A46FC1121CD13C740091E3A2 /* 2016-04-27-Colleciton_TabBar_View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A46FC1221CD13C740091E3A2 /* Build configuration list for PBXNativeTarget "2016-04-27-Colleciton_TabBar_View" */;
+			buildPhases = (
+				A46FC10F1CD13C740091E3A2 /* Sources */,
+				A46FC1101CD13C740091E3A2 /* Frameworks */,
+				A46FC1111CD13C740091E3A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2016-04-27-Colleciton_TabBar_View";
+			productName = "2016-04-27-Colleciton_TabBar_View";
+			productReference = A46FC1131CD13C740091E3A2 /* 2016-04-27-Colleciton_TabBar_View.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A46FC10B1CD13C740091E3A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TB;
+				TargetAttributes = {
+					A46FC1121CD13C740091E3A2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = A46FC10E1CD13C740091E3A2 /* Build configuration list for PBXProject "2016-04-27-Colleciton_TabBar_View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A46FC10A1CD13C740091E3A2;
+			productRefGroup = A46FC1141CD13C740091E3A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A46FC1121CD13C740091E3A2 /* 2016-04-27-Colleciton_TabBar_View */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A46FC1111CD13C740091E3A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46FC11E1CD13C740091E3A2 /* Assets.xcassets in Resources */,
+				A46FC11C1CD13C740091E3A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A46FC10F1CD13C740091E3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46FC1261CD140B00091E3A2 /* MoviesItem.swift in Sources */,
+				A46FC1191CD13C740091E3A2 /* ViewController.swift in Sources */,
+				A46FC12A1CD14E440091E3A2 /* DetailViewController.swift in Sources */,
+				A46FC1281CD141E40091E3A2 /* Movies.swift in Sources */,
+				A46FC12C1CD152EF0091E3A2 /* TabBarViewController.swift in Sources */,
+				A46FC1171CD13C740091E3A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A46FC11A1CD13C740091E3A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A46FC11B1CD13C740091E3A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A46FC1201CD13C740091E3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		A46FC1211CD13C740091E3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A46FC1231CD13C740091E3A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "2016-04-27-Colleciton_TabBar_View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TB.-016-04-27-Colleciton-TabBar-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A46FC1241CD13C740091E3A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "2016-04-27-Colleciton_TabBar_View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TB.-016-04-27-Colleciton-TabBar-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A46FC10E1CD13C740091E3A2 /* Build configuration list for PBXProject "2016-04-27-Colleciton_TabBar_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46FC1201CD13C740091E3A2 /* Debug */,
+				A46FC1211CD13C740091E3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A46FC1221CD13C740091E3A2 /* Build configuration list for PBXNativeTarget "2016-04-27-Colleciton_TabBar_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A46FC1231CD13C740091E3A2 /* Debug */,
+				A46FC1241CD13C740091E3A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A46FC10B1CD13C740091E3A2 /* Project object */;
+}
